@@ -9,7 +9,7 @@ function TodoList() {
     return (
         <div>
             <h3> To do list </h3>
-            <InputButton buttonDisplayName="Add new todo item" callbackFunction={() => {addTodoListItem()}}/> 
+            <InputButton buttonDisplayName="Add new todo action" callbackFunction={() => {addTodoListItem()}}/> 
             <InputButton buttonDisplayName="Download list" callbackFunction={() => {downloadTodoListItems()}}/> 
             <InputButton buttonDisplayName="Clear list" callbackFunction={() => {clearTodoListItems()}}/> 
             <ul> {listItems} </ul>
