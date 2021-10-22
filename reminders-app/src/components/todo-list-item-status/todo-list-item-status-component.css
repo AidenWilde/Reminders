@@ -1,0 +1,61 @@
+span {
+    margin-right: 2em;
+}
+
+span p {
+    font-size: small;
+    color: black;
+}
+
+.c-pill {
+	font-weight: bold;
+    font-size: small;
+    display: inline-block;
+    height: 100%;
+    white-space: nowrap;
+    width: auto;
+    position: relative;
+    border-radius: 20em;
+    line-height: 1;
+    padding: 0px 25px 0px 15px;
+    text-overflow: ellipsis;
+    line-height: 0.25em;
+    color: black;
+    word-break: break-word;
+    width: 6em;
+}
+
+.c-pill:before {
+    border-radius: 50%;
+    content: '';
+    height: 10px;
+    left: 6px;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+  }
+
+.c-pill--success {
+    background: #b4eda0; 
+}
+
+.c-pill--success:before {
+    background: #6BC167; 
+}
+
+.c-pill--warning {
+    background: #ffebb6; 
+}
+
+.c-pill--warning:before {
+    background: #ffc400; 
+}
+
+.c-pill--danger {
+    background: #ffd5d1; 
+}
+
+.c-pill--danger:before {
+    background: #ff4436; 
+}

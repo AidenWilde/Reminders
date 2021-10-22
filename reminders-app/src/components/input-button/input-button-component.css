@@ -1,0 +1,8 @@
+input {
+    margin-top: 0.25em;
+    margin-bottom: .25em;
+    margin-right: .25em;
+    margin-left: .25em;
+    display: inline-block;
+    table-layout: fixed;
+}
