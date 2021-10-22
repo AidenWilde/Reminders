@@ -21,7 +21,7 @@ function TodoList() {
     }
 
     function downloadTodoListItems() {
-        console.log("tried downloading to do list, functionality not yet complete");
+        console.log("tried downloading to do list, functionality not yet implemented");
     }
 
     function clearTodoListItems() {
